@@ -45,7 +45,7 @@ const Guitar = ({ singleGuitar, removeGuitar, allLocations }) => {
           <div style={{ display: "flex" }}>
             <NavLink to={`/editGuitar/${singleGuitar.id}`}>
               <Button
-                style={{ margin: "3px", width:"130px", height:"50px" }}
+                style={{ margin: "3px", width:"120px", height:"50px" }}
                 className="btn-sm"
                 variant="outline-warning"
               >
